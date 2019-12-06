@@ -1,6 +1,6 @@
 module FizzBuzzStepHelper
   def play_fizz_buzz(number)
-    sleep_for_sec = rand(1..5)
+    sleep_for_sec = rand(1..15)
     sleep sleep_for_sec
     if number == 0
       number.to_s

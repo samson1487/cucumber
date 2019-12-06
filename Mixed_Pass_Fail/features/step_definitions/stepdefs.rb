@@ -1,6 +1,6 @@
 module FridayStepHelper
   def is_it_friday(day)
-    sleep_for_sec = rand(1..5)
+    sleep_for_sec = rand(1..15)
     sleep sleep_for_sec
     if day == 'Friday'
       'TGIF'
