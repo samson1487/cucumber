@@ -4,6 +4,8 @@ module AdditionStepHelper
 end
   
   def add_two_numbers(first_number,second_number)
+    sleep_for_sec = rand(1..5)
+    sleep sleep_for_sec
     if !(is_numeric? first_number) || !(is_numeric? second_number) 
 	  'Invalid'
 	else
